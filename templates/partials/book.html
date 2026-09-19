@@ -1,0 +1,17 @@
+<section id="reserver" class="book">
+  <div class="wrap">
+    <div class="head">
+      <h2>{{book.title}}</h2>
+      <p>{{book.intro}}</p>
+    </div>
+    <dl class="contact">
+      {{#each book.contact_links}}
+      <div><dt>{{this.label}}</dt><dd><a href="{{this.href}}">{{this.value}}</a></dd></div>
+      {{/each}}
+      {{#each book.contact_info}}
+      <div><dt>{{this.label}}</dt><dd>{{this.value}}</dd></div>
+      {{/each}}
+    </dl>
+    <a class="btn" href="mailto:gitedulavoir@protonmail.com?subject=Demande%20de%20s%C3%A9jour">{{book.cta}}</a>
+  </div>
+</section>

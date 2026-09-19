@@ -1,0 +1,54 @@
+<div class="hero">
+  <div class="scene hero-scene" aria-hidden="true">
+    <svg viewBox="0 0 1200 270" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g stroke="#CBB68E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M40 132 L600 66 L1160 132"/>
+        <path d="M56 146 L600 82 L1144 146"/>
+        <path d="M96 146 L96 258 M1104 146 L1104 258"/>
+        <path d="M100 258 L100 205 A85 85 0 0 1 270 205 L270 258"/>
+        <path d="M310 258 L310 205 A85 85 0 0 1 480 205 L480 258"/>
+        <path d="M520 258 L520 205 A85 85 0 0 1 690 205 L690 258"/>
+        <path d="M730 258 L730 205 A85 85 0 0 1 900 205 L900 258"/>
+        <path d="M940 258 L940 205 A85 85 0 0 1 1110 205 L1110 258" opacity=".85"/>
+        <path d="M40 258 L1160 258"/>
+        <path d="M600 82 L600 120" opacity=".5"/>
+      </g>
+    </svg>
+    <div class="waterline"></div>
+    <svg class="refl" viewBox="0 0 1200 270" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g stroke="#CBB68E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M40 132 L600 66 L1160 132"/>
+        <path d="M56 146 L600 82 L1144 146"/>
+        <path d="M96 146 L96 258 M1104 146 L1104 258"/>
+        <path d="M100 258 L100 205 A85 85 0 0 1 270 205 L270 258"/>
+        <path d="M310 258 L310 205 A85 85 0 0 1 480 205 L480 258"/>
+        <path d="M520 258 L520 205 A85 85 0 0 1 690 205 L690 258"/>
+        <path d="M730 258 L730 205 A85 85 0 0 1 900 205 L900 258"/>
+        <path d="M940 258 L940 205 A85 85 0 0 1 1110 205 L1110 258" opacity=".85"/>
+        <path d="M40 258 L1160 258"/>
+      </g>
+    </svg>
+  </div>
+  <div class="wrap hero-in">
+    <div class="hero-copy">
+      <h1>{{hero.h1}}</h1>
+      <p class="place">{{hero.place}}</p>
+      <p class="lede">{{hero.lede}}</p>
+    </div>
+
+    <div id="reserver" class="hero-book">
+      <div class="head">
+        <h2>{{book.title}}</h2>
+        <p>{{book.intro}}</p>
+      </div>
+      <dl class="contact">
+        {{#each book.contact_links}}
+        <div><dt>{{this.label}}</dt><dd><a href="{{this.href}}">{{this.value}}</a></dd></div>
+        {{/each}}
+        {{#each book.contact_info}}
+        <div><dt>{{this.label}}</dt><dd>{{this.value}}</dd></div>
+        {{/each}}
+      </dl>
+    </div>
+  </div>
+</div>

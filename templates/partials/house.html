@@ -1,0 +1,22 @@
+<section id="maison">
+  <div class="wrap">
+    <div class="house-grid">
+      <div>
+        <div class="head">
+          <h2>{{house.title}}</h2>
+          <p>{{house.intro}}</p>
+        </div>
+        <div class="prose">
+          {{#each house.paragraphs}}
+          <p>{{this}}</p>
+          {{/each}}
+        </div>
+      </div>
+      <ul class="facts">
+        {{#each house.facts}}
+        <li><span>{{this.label}}</span><span>{{this.value}}</span></li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</section>

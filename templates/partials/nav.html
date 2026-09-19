@@ -1,0 +1,15 @@
+<header class="top">
+  <div class="wrap top-in">
+    <a class="mark" href="{{home}}">Le Gîte du Lavoir<span> · Bruniquel</span></a>
+    <a class="top-phone" href="{{book.contact_links.1.href}}">{{book.contact_links.1.value}}</a>
+    <nav class="nav">
+      {{#each nav}}
+      <a href="{{this.href}}">{{this.label}}</a>
+      {{/each}}
+    </nav>
+    <div class="lang" role="group" aria-label="Langue / Language">
+      <a href="{{fr_href}}" data-lang="fr">FR</a>
+      <a href="{{en_href}}" data-lang="en">EN</a>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "title": { "fr": "Gîte du Lavoir — Bruniquel, Tarn-et-Garonne", "en": "Gîte du Lavoir — Southwestern France" },
+    "description": {
+      "fr": "Gîte de groupe et chambres d'hôtes à Bruniquel, dans les gorges de l'Aveyron. 7 chambres, grand salon et cuisine commune équipée.",
+      "en": "Group accommodation in Bruniquel, in the Aveyron gorges. 7 bedrooms, a large shared living room and fitted kitchen."
+    },
+    "favicon": "🪨"
+  },
+
+  "nav": [
+    { "href": "#reserver", "label": { "fr": "Réserver",      "en": "Book" } },
+    { "href": "#maison",   "label": { "fr": "La maison",     "en": "The house" } },
+    { "href": "#chambres", "label": { "fr": "Tarifs",  "en": "Rates" } },
+    { "href": "#environs", "label": { "fr": "Autour du gîte","en": "Around us" } }
+  ],
+
+  "hero": {
+    "eyebrow": { "fr": "Bruniquel · Tarn-et-Garonne", "en": "Bruniquel · Tarn-et-Garonne" },
+    "h1": "Gîte du Lavoir",
+    "place": {
+      "fr": "Gorges de l'Aveyron",
+      "en": "In the Aveyron gorges"
+    },
+    "lede": {
+      "fr": "Gîte de groupe et chambres d'hôtes : sept chambres, une cuisine commune, à deux pas des châteaux et de la rivière.",
+      "en": "Group accommodation in Bruniquel: seven bedrooms, a large shared kitchen, and the river at the bottom of the lane."
+    },
+    "image": {
+      "src": "assets/img/hero.jpg",
+      "alt": { "fr": "La cour du gîte au-dessus de la vallée de l'Aveyron", "en": "The gîte's courtyard above the Aveyron valley" }
+    }
+  },
+
+  "stats": [
+    { "value": "7",      "label": { "fr": "chambres",                    "en": "bedrooms" } },
+    { "value": "16",     "label": { "fr": "couchages",                   "en": "beds" } },
+    { "value": "1",      "label": { "fr": "cuisine commune équipée",     "en": "shared fitted kitchen" } },
+    { "value": { "fr": "à 15 m", "en": "15 m" },  "label": { "fr": "du lavoir",           "en": "from the lavoir" } },
+    { "value": "5 min",  "label": { "fr": "à pied du château",           "en": "walk to the castle" } },
+    { "value": "2 min",  "label": { "fr": "à pied de la rivière",           "en": "walk to the river" } }
+  ],
+
+  "house": {
+    "title": { "fr": "La maison", "en": "The house" },
+    "intro": {
+      "fr": "Une maison dans la partie basse du village, à quelques pas de l'ancien lavoir qui lui donne son nom.",
+      "en": "A limestone house in the lower part of the village, a few steps from the old washhouse it is named after."
+    },
+    "paragraphs": [
+      {
+        "fr": "Les parties communes sont au rez-de-chaussée : un grand salon et sa cuisine équipée ouverte.",
+        "en": "The shared areas are on the ground floor: a large living room and its fully equipped open-plan kitchen."
+      },
+      {
+        "fr": "Les sept chambres se répartissent sur les deux étages, avec des sanitaires à chaque étage.",
+        "en": "The seven bedrooms are spread over two floors, with bathrooms on each floor."
+      }
+    ],
+    "facts": [
+      { 
+        "label": { "fr": "Capacité",   "en": "Sleeps" },
+        "value": { "fr": "Jusqu'à 16 personnes",
+        "en": "Up to 16 people" } 
+      },
+      { 
+        "label": { "fr": "Cuisine",    "en": "Kitchen" },    
+        "value": { "fr": "Commune, entièrement équipée",       
+        "en": "Shared, fully fitted" } 
+      },
+      { 
+        "label": { "fr": "Sanitaires", "en": "Bathrooms" },  
+        "value": { "fr": "Douches et WC à chaque étage",       
+        "en": "Showers and WC on every floor" } },
+      { "label": { "fr": "Pratique",   "en": "Practical" },  "value": { "fr": "Wi-Fi, local à vélos",   "en": "Wi-Fi, bike store" } },
+      { "label": { "fr": "Draps",      "en": "Linen" },      "value": { "fr": "Fournis",                "en": "Provided" } }
+    ]
+  },
+
+  "rooms": {
+    "title": { "fr": "Tarifs", "en": "Rates" },
+    "intro": {
+      "fr": "Sept chambres, du lit double au dortoir.",
+      "en": "Seven bedrooms, from double rooms to a dormitory."
+    },
+    "capacity_labels": [
+      { "fr": "1 personne", "en": "1 person" },
+      { "fr": "2 personnes", "en": "2 people" },
+      { "fr": "3 personnes", "en": "3 people" },
+      { "fr": "4 personnes", "en": "4 people" },
+      { "fr": "5 personnes", "en": "5 people" }
+    ],
+    "list": [
+      {
+        "count": "4",
+        "name": { "fr": "Chambres doubles", "en": "Double rooms" },
+        "description": {
+          "fr": "Lits doubles ou lits simples.",
+          "en": "Double beds or single beds."
+        },
+        "rates": [
+          { "fr": "45 € / nuit", "en": "€45 / night" },
+          { "fr": "60 € / nuit", "en": "€60 / night" },
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "count": "2",
+        "name": { "fr": "Chambres triples", "en": "Triple rooms" },
+        "description": {
+          "fr": "Un lit double et un lit simple ou trois lits simples.",
+          "en": "One double bed and one single bed, or three single beds."
+        },
+        "rates": [
+          "",
+          { "fr": "70 € / nuit", "en": "€70 / night" },
+          { "fr": "90 € / nuit", "en": "€90 / night" },
+          "",
+          ""
+        ]
+      },
+      {
+        "count": "1",
+        "name": { "fr": "Dortoir", "en": "Dormitory" },
+        "description": {
+          "fr": "Deux lits superposés et trois lits simples.",
+          "en": "Two bunk beds and three single beds."
+        },
+        "rates": [
+          { "fr": "25 € / nuit", "en": "€25 / night" },
+          { "fr": "48 € / nuit", "en": "€48 / night" },
+          { "fr": "69 € / nuit", "en": "€69 / night" },
+          { "fr": "88 € / nuit", "en": "€88 / night" },
+          { "fr": "108 € / nuit", "en": "€108 / night" }
+        ]
+      }
+    ]
+  },
+
+  "story": {
+    "title": { "fr": "Le lavoir", "en": "The washhouse" },
+    "paragraphs": [
+      {
+        "fr": "Bruniquel est classé parmi les plus beaux villages de France : des ruelles en pente, deux châteaux accrochés à la falaise, et une vue qui plonge sur la confluence de l'Aveyron et de la Vère.",
+        "en": "Bruniquel is one of France's most beautiful villages: steep lanes, two castles clinging to the cliff, and a view straight down to where the Aveyron meets the Vère."
+      },
+      {
+        "fr": "Le gîte occupe une grande maison, accolée à l'ancien lavoir couvert. Alimenté par la source, il reste au frais toute l'année.",
+        "en": "The gîte occupies a large house adjoining the covered washhouse. Fed by the spring, it stays cool all year round."
+      }
+    ]
+  },
+
+  "around": {
+    "title": { "fr": "Autour du gîte", "en": "Around us" },
+    "intro": {
+      "fr": "Les gorges de l'Aveyron commencent au pied du village. Distances approximatives en voiture.",
+      "en": "The Aveyron gorges start at the foot of the village. Approximate driving distances."
+    },
+    "list": [
+      { "distance": { "fr": "au pied du village", "en": "at the foot of the village" }, "name": { "fr": "Gorges de l'Aveyron", "en": "Aveyron gorges" }, "note": { "fr": "Baignade, canoë, sentiers de randonnée le long de la rivière.", "en": "Swimming, canoeing, footpaths along the river." } },
+      { "distance": { "fr": "5 min", "en": "5 min" }, "name": { "fr": "Châteaux de Bruniquel", "en": "Bruniquel castles" }, "note": { "fr": "Terrasse en surplomb des gorges, à cinq minutes à pied.", "en": "A terrace hanging over the gorges, five minutes on foot." } },
+      { "distance": { "fr": "10 km", "en": "10 km" }, "name": { "fr": "Saint-Antonin-Noble-Val", "en": "Saint-Antonin-Noble-Val" }, "note": { "fr": "Marché du dimanche, bases de canoë, falaises d'escalade.", "en": "Sunday market, canoe bases, climbing crags." } },
+      { "distance": { "fr": "15 km", "en": "15 km" }, "name": { "fr": "Penne et la forêt de la Grésigne", "en": "Penne and the Grésigne forest" }, "note": { "fr": "Grande chênaie, pistes VTT et village perché.", "en": "Great oak forest, mountain-bike trails and a hilltop village." } },
+      { "distance": { "fr": "25 km", "en": "25 km" }, "name": { "fr": "Cordes-sur-Ciel", "en": "Cordes-sur-Ciel" }, "note": { "fr": "Cité médiévale gothique, perchée sur son puech.", "en": "Gothic hilltop town, perched on its ridge." } },
+      { "distance": { "fr": "30 km", "en": "30 km" }, "name": { "fr": "Montauban", "en": "Montauban" }, "note": { "fr": "Place Nationale, musée Ingres Bourdelle, gare TGV.", "en": "Place Nationale, Ingres Bourdelle museum, TGV station." } },
+      { "distance": { "fr": "60 km", "en": "60 km" }, "name": { "fr": "Albi", "en": "Albi" }, "note": { "fr": "Cathédrale Sainte-Cécile et musée Toulouse-Lautrec.", "en": "Sainte-Cécile cathedral and the Toulouse-Lautrec museum." } },
+      { "distance": { "fr": "85 km", "en": "85 km" }, "name": { "fr": "Toulouse", "en": "Toulouse" }, "note": { "fr": "Aéroport le plus proche, environ 1 h 15 de route.", "en": "Nearest airport, about 1 h 15 by road." } }
+    ]
+  },
+
+  "book": {
+    "title": { "fr": "Réserver", "en": "Book" },
+    "intro": {
+        "fr": "Ouvert de mars à novembre", "en": "Open March to November"
+    },
+    "contact_links": [
+      { "label": { "fr": "Écrire",    "en": "Email" }, "value": "gitedulavoir@protonmail.com", "href": "mailto:gitedulavoir@protonmail.com" },
+      { "label": { "fr": "Téléphone / WhatsApp", "en": "Phone / WhatsApp" }, "value": "+33 (0)7 62 32 99 54",   "href": "tel:+33762329954" },
+      { "label": { "fr": "Adresse", "en": "Address" }, "value": "123 Rte de L’Usine a Chaux,<br> 82800 Bruniquel", "href": "https://maps.app.goo.gl/s9TXH2EaFbDu6eoD7" }
+    ],
+    "contact_info": [
+      { "label": { "fr": "Réservation",  "en": "Booking" },  "value": { "fr": "Chambres, maison entière, week-end ou semaine",
+        "en": "Rooms, whole house, weekend or week"  } }
+    ],
+    "cta": { "fr": "Demander des dates", "en": "Ask about dates" }
+  },
+
+  "footer": {
+    "tagline": { "fr": "Gîte de groupe dans les gorges de l'Aveyron", "en": "Group accommodation in the Aveyron gorges" }
+  }
+}

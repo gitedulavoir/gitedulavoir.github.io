@@ -1,0 +1,17 @@
+<section id="environs">
+  <div class="wrap">
+    <div class="head">
+      <h2>{{around.title}}</h2>
+      <p>{{around.intro}}</p>
+    </div>
+    <ul class="around">
+      {{#each around.list}}
+      <li>
+        <span class="dist">{{this.distance}}</span>
+        <b>{{this.name}}</b>
+        <em>{{this.note}}</em>
+      </li>
+      {{/each}}
+    </ul>
+  </div>
+</section>

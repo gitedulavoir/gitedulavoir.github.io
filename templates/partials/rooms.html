@@ -1,0 +1,30 @@
+<section id="chambres" class="on-surface">
+  <div class="wrap">
+    <div class="head">
+      <h2>{{rooms.title}}</h2>
+      <p>{{rooms.intro}}</p>
+    </div>
+    <div class="courses">
+      <div class="course course-head">
+        <div>Chambre</div>
+        {{#each rooms.capacity_labels}}
+        <div>{{this}}</div>
+        {{/each}}
+      </div>
+      {{#each rooms.list}}
+      <article class="course">
+        <div class="course-name">
+          <span class="qty">{{this.count}}</span>
+          <h3>{{this.name}}</h3>
+          <p>{{this.description}}</p>
+        </div>
+        <div class="rate">{{this.rates.0}}</div>
+        <div class="rate">{{this.rates.1}}</div>
+        <div class="rate">{{this.rates.2}}</div>
+        <div class="rate">{{this.rates.3}}</div>
+        <div class="rate">{{this.rates.4}}</div>
+      </article>
+      {{/each}}
+    </div>
+  </div>
+</section>

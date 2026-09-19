@@ -1,0 +1,12 @@
+{
+  "name": "gite-du-lavoir",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Site du Gîte du Lavoir (Bruniquel) — générateur statique maison, sans dépendance.",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
