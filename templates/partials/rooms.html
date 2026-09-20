@@ -4,27 +4,58 @@
       <h2>{{rooms.title}}</h2>
       <p>{{rooms.intro}}</p>
     </div>
-    <div class="courses">
-      <div class="course course-head">
-        <div>Chambre</div>
-        {{#each rooms.capacity_labels}}
-        <div>{{this}}</div>
-        {{/each}}
-      </div>
-      {{#each rooms.list}}
-      <article class="course">
-        <div class="course-name">
-          <span class="qty">{{this.count}}</span>
-          <h3>{{this.name}}</h3>
-          <p>{{this.description}}</p>
-        </div>
-        <div class="rate">{{this.rates.0}}</div>
-        <div class="rate">{{this.rates.1}}</div>
-        <div class="rate">{{this.rates.2}}</div>
-        <div class="rate">{{this.rates.3}}</div>
-        <div class="rate">{{this.rates.4}}</div>
-      </article>
-      {{/each}}
+    <div class="rates-scroll">
+      <table class="rates-table">
+        <thead>
+          <tr>
+            <th>Chambre</th>
+            {{#each rooms.capacity_labels}}
+            <th>{{this}}</th>
+            {{/each}}
+          </tr>
+        </thead>
+        <tbody>
+          {{#each rooms.list}}
+          <tr>
+            <th scope="row" class="room-name">
+              <span class="qty">{{this.count}}</span>
+              <span>
+                <strong>{{this.name}}</strong>
+                <small>{{this.description}}</small>
+              </span>
+            </th>
+            <td>{{this.rates.0}}</td>
+            <td>{{this.rates.1}}</td>
+            <td>{{this.rates.2}}</td>
+            <td>{{this.rates.3}}</td>
+            <td>{{this.rates.4}}</td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
+    </div>
+    <div class="whole-house-rates">
+      <table class="rates-table whole-house-table">
+        <thead>
+          <tr>
+            <th>Gîte</th>
+            <th>{{rooms.whole_house.season_labels.0}}</th>
+            <th>{{rooms.whole_house.season_labels.1}}</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="room-name">
+              <span>
+                <strong>{{rooms.whole_house.title}}</strong>
+                <small>{{rooms.whole_house.description}}</small>
+              </span>
+            </th>
+            <td>{{rooms.whole_house.rates.0}}</td>
+            <td>{{rooms.whole_house.rates.1}}</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </section>

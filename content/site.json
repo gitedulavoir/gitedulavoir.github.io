@@ -27,8 +27,8 @@
       "en": "Group accommodation in Bruniquel: seven bedrooms, a large shared kitchen, and the river at the bottom of the lane."
     },
     "image": {
-      "src": "assets/img/hero.jpg",
-      "alt": { "fr": "La cour du gîte au-dessus de la vallée de l'Aveyron", "en": "The gîte's courtyard above the Aveyron valley" }
+      "src": "assets/img/lavoir_and_house.jpg",
+      "alt": { "fr": "Le gîte et le lavoir à l'entrée de Bruniquel", "en": "" }
     }
   },
 
@@ -80,8 +80,8 @@
   "rooms": {
     "title": { "fr": "Tarifs", "en": "Rates" },
     "intro": {
-      "fr": "Sept chambres, du lit double au dortoir.",
-      "en": "Seven bedrooms, from double rooms to a dormitory."
+      "fr": "Tarifs Saison 2025/26 <b>à la nuitée</b>.",
+      "en": "."
     },
     "capacity_labels": [
       { "fr": "1 personne", "en": "1 person" },
@@ -92,31 +92,61 @@
     ],
     "list": [
       {
-        "count": "4",
+        "count": "2",
         "name": { "fr": "Chambres doubles", "en": "Double rooms" },
         "description": {
-          "fr": "Lits doubles ou lits simples.",
-          "en": "Double beds or single beds."
+          "fr": "Lits doubles avec douche et toilettes.",
+          "en": ""
         },
         "rates": [
-          { "fr": "45 € / nuit", "en": "€45 / night" },
-          { "fr": "60 € / nuit", "en": "€60 / night" },
+          "",
+          "60 €",
           "",
           "",
           ""
         ]
       },
       {
-        "count": "2",
+        "count": "1",
+        "name": { "fr": "Chambres doubles", "en": "Double rooms" },
+        "description": {
+          "fr": "Deux lits simples.",
+          "en": ""
+        },
+        "rates": [
+          "40 €",
+          "60 €",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "count": "1",
         "name": { "fr": "Chambres triples", "en": "Triple rooms" },
         "description": {
-          "fr": "Un lit double et un lit simple ou trois lits simples.",
-          "en": "One double bed and one single bed, or three single beds."
+          "fr": "Un lit double et un petit lit simple enfant.",
+          "en": ""
         },
         "rates": [
           "",
-          { "fr": "70 € / nuit", "en": "€70 / night" },
-          { "fr": "90 € / nuit", "en": "€90 / night" },
+          "",
+          "60 €",
+          "",
+          ""
+        ]
+      },
+      {
+        "count": "1",
+        "name": { "fr": "Chambres triples", "en": "Triple rooms" },
+        "description": {
+          "fr": "Trois lits simples et douche.",
+          "en": ""
+        },
+        "rates": [
+          "40 €",
+          "60 €",
+          "80 €",
           "",
           ""
         ]
@@ -129,14 +159,29 @@
           "en": "Two bunk beds and three single beds."
         },
         "rates": [
-          { "fr": "25 € / nuit", "en": "€25 / night" },
-          { "fr": "48 € / nuit", "en": "€48 / night" },
-          { "fr": "69 € / nuit", "en": "€69 / night" },
-          { "fr": "88 € / nuit", "en": "€88 / night" },
-          { "fr": "105 € / nuit", "en": "€105 / night" }
+          "35 €",
+          "70 €",
+          "80 €",
+          "90 €",
+          "100 €"
         ]
       }
-    ]
+    ],
+    "whole_house": {
+      "title": { "fr": "Gîte complet", "en": "Whole house" },
+      "description": {
+        "fr": "Maison entière, jusqu'à 16 personnes.",
+        "en": "Whole house, up to 16 people."
+      },
+      "season_labels": [
+        { "fr": "Basse saison", "en": "Low season" },
+        { "fr": "Haute saison", "en": "High season" }
+      ],
+      "rates": [
+        "200 €",
+        "220 €"
+      ]
+    }
   },
 
   "story": {
