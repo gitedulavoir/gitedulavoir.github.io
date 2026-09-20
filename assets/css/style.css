@@ -119,7 +119,7 @@ html[lang="en"] .lang a[data-lang="en"]{background:var(--river);color:var(--pape
   text-wrap:balance;
 }
 .hero .place{margin:1.1rem auto 0;max-width:34ch;color:var(--river);font-size:clamp(.95rem,.4vw + .85rem,1.1rem)}
-.hero .lede{margin:1.6rem auto 0;max-width:52ch;color:rgba(27,38,32,.78)}
+.hero .lede{margin:1.6rem auto 0;max-width:52ch;color:var(--moss)}
 .hero-book{
   width:min(980px,100%);
   margin:clamp(2.3rem,5vw,3.8rem) auto 0;
@@ -149,7 +149,7 @@ html[lang="en"] .lang a[data-lang="en"]{background:var(--river);color:var(--pape
 }
 
 /* ---------- bandeau chiffres ---------- */
-.strip{background:var(--river);color:#F2F1EA}
+.strip{background:var(--river);color:var(--paper)}
 @media (prefers-color-scheme:dark){.strip{color:var(--deep)}}
 .strip-in{display:flex;flex-wrap:wrap;gap:.2rem 2.5rem;padding:1.15rem 0;font-size:.95rem;font-family:"Familjen Grotesk",Helvetica,Arial,sans-serif}
 .strip b{font-weight:600;font-size:1.2rem;letter-spacing:-.02em}
@@ -196,7 +196,7 @@ section{padding:clamp(3.5rem,8vw,6rem) 0}
 .rates-scroll{margin-top:2.5rem;overflow-x:auto;border-top:2px solid var(--ink)}
 .rates-table{width:100%;min-width:720px;border-collapse:collapse;table-layout:fixed}
 .rates-table th,.rates-table td{padding:1rem .8rem;border-bottom:1px solid var(--rule);vertical-align:middle}
-.rates-table thead th{font-family:"Familjen Grotesk",Helvetica,Arial,sans-serif;font-size:.82rem;font-weight:500;color:var(--moss);text-align:center}
+.rates-table thead th{font-family:"Familjen Grotesk",Helvetica,Arial,sans-serif;font-size:.82rem;font-weight:500;color:var(--moss);background:var(--paper);text-align:center}
 .rates-table thead th:first-child{text-align:left;width:42%}
 .rates-table tbody td{text-align:center;font-family:"Familjen Grotesk",Helvetica,Arial,sans-serif;font-weight:600;color:var(--river);white-space:nowrap}
 .room-name{display:flex;gap:.8rem;align-items:flex-start;text-align:left}
@@ -207,6 +207,20 @@ section{padding:clamp(3.5rem,8vw,6rem) 0}
 .whole-house-rates{margin-top:3rem;overflow-x:auto;border-top:2px solid var(--ink)}
 .whole-house-table{min-width:560px}
 .whole-house-table thead th:first-child{width:42%}
+@media (max-width:640px){
+  .rates-scroll,.whole-house-rates{-webkit-overflow-scrolling:touch;scrollbar-width:thin}
+  .rates-scroll{margin-top:2rem;padding-bottom:.35rem}
+  .rates-table{min-width:600px}
+  .rates-table th,.rates-table td{padding:.7rem .45rem}
+  .rates-table thead th{font-size:.76rem;line-height:1.15}
+  .rates-table tbody td{font-size:.95rem}
+  .room-name{gap:.45rem}
+  .room-name .qty{font-size:1.35rem}
+  .room-name strong{font-size:1rem}
+  .room-name small{margin-top:.3rem;font-size:.84rem;line-height:1.25}
+  .whole-house-rates{margin-top:2rem;padding-bottom:.25rem}
+  .whole-house-table{min-width:480px}
+}
 
 /* ---------- histoire du lavoir ---------- */
 .story{

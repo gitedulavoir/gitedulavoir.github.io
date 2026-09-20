@@ -153,7 +153,7 @@
       },
       {
         "count": "1",
-        "name": { "fr": "Dortoir", "en": "Dormitory" },
+        "name": { "fr": "Dortoir 5 lits", "en": "Dormitory 5 beds" },
         "description": {
           "fr": "Deux lits superposés et trois lits simples.",
           "en": "Two bunk beds and three single beds."
