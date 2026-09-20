@@ -78,8 +78,8 @@
   "rooms": {
     "title": { "fr": "Tarifs saison 2025/26", "en": "2025/26 seasonal rates" },
     "intro": {
-      "fr": "Six chambres, pour une capacité totale de 15 personnes. Draps fournis.",
-      "en": "Six bedrooms, with a total capacity of 15 people. Linen included."
+      "fr": "Tarifs <b>à la nuitée</b> avec draps fournis. Pour un séjour à la semaine, contactez-nous.",
+      "en": "<b>Nightly rates</b> with linen included. Please contact us for weekly stays."
     },
     "capacity_labels": [
       { "fr": "1 personne", "en": "1 person" },
