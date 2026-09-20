@@ -2,8 +2,8 @@
   "meta": {
     "title": { "fr": "Gîte du Lavoir -- Bruniquel, Gorges de l'Aveyron, Tarn-et-Garonne", "en": "Gîte du Lavoir -- Bruniquel, Gorges de l'Aveyron, Tarn-et-Garonne, Southwestern France" },
     "description": {
-      "fr": "Gîte de groupe et chambres d'hôtes à Bruniquel, dans les gorges de l'Aveyron. 7 chambres, salon et cuisine commune équipée. À proximité des rivières Vère et Aveyron et des châteaux de Bruniquel.",
-      "en": "Group gîte and guest rooms in Bruniquel, in the Aveyron gorges. 7 bedrooms, lounge, and a fully equipped shared kitchen. Close to the Vère and Aveyron rivers and the châteaux of Bruniquel."
+      "fr": "Gîte de groupe et chambres d'hôtes à Bruniquel, dans les gorges de l'Aveyron. 6 chambres, salon et cuisine commune équipée. À proximité des rivières Vère et Aveyron et des châteaux de Bruniquel.",
+      "en": "Group gîte and guest rooms in Bruniquel, in the Aveyron gorges. 6 bedrooms, lounge, and a fully equipped shared kitchen. Close to the Vère and Aveyron rivers and the châteaux of Bruniquel."
     },
     "favicon": ""
   },
@@ -23,8 +23,8 @@
       "en": "In the Aveyron gorges"
     },
     "lede": {
-      "fr": "Gîte de groupe et chambres d'hôtes : sept chambres, une cuisine commune, à deux pas des châteaux et de la rivière.",
-      "en": "A group gîte and guest rooms in Bruniquel: seven bedrooms, a shared kitchen, and the river just a short walk away."
+      "fr": "Gîte de groupe et chambres d'hôtes : six chambres, une cuisine commune, à deux pas des châteaux et de la rivière.",
+      "en": "A group gîte and guest rooms in Bruniquel: six bedrooms, a shared kitchen, and the river just a short walk away."
     },
     "image": {
       "src": "assets/img/lavoir_and_house.jpg",
@@ -33,8 +33,8 @@
   },
 
   "stats": [
-    { "value": "7", "label": { "fr": "chambres", "en": "bedrooms" } },
-    { "value": "18", "label": { "fr": "couchages", "en": "beds" } },
+    { "value": "6", "label": { "fr": "chambres", "en": "bedrooms" } },
+    { "value": "15", "label": { "fr": "couchages", "en": "beds" } },
     { "value": "1",  "label": { "fr": "cuisine commune équipée", "en": "shared fitted kitchen" } },
     { "value": "",  "label": { "fr": "Local à vélos",  "en": "Bike Storage" } }
   ],
@@ -51,15 +51,15 @@
         "en": "The shared areas are on the ground floor: a large living room and its fully equipped open-plan kitchen."
       },
       {
-        "fr": "Les sept chambres se répartissent sur les deux étages, avec des sanitaires à chaque étage.",
-        "en": "The seven bedrooms are spread over two floors, with bathrooms on each floor."
+        "fr": "Les six chambres se répartissent sur les deux étages, avec des sanitaires à chaque étage.",
+        "en": "The six bedrooms are spread over two floors, with bathrooms on each floor."
       }
     ],
     "facts": [
       { 
         "label": { "fr": "Capacité",   "en": "Sleeps" },
-        "value": { "fr": "Jusqu'à 18 personnes",
-        "en": "Up to 18 people" } 
+        "value": { "fr": "Jusqu'à 15 personnes",
+        "en": "Up to 15 people" } 
       },
       { 
         "label": { "fr": "Cuisine",    "en": "Kitchen" },    
@@ -78,8 +78,8 @@
   "rooms": {
     "title": { "fr": "Tarifs saison 2025/26", "en": "2025/26 seasonal rates" },
     "intro": {
-      "fr": "Tarifs <b>à la nuitée</b> avec draps fournis. Pour un séjour à la semaine, contactez-nous.",
-      "en": "<b>Nightly rates</b> with linen included. Please contact us for weekly stays."
+      "fr": "Six chambres, pour une capacité totale de 15 personnes. Draps fournis.",
+      "en": "Six bedrooms, with a total capacity of 15 people. Linen included."
     },
     "capacity_labels": [
       { "fr": "1 personne", "en": "1 person" },
@@ -90,11 +90,11 @@
     ],
     "list": [
       {
-        "count": "2",
-        "name": { "fr": "Chambres doubles", "en": "Double rooms" },
+        "count": "",
+        "name": { "fr": "Chambre au rez-de-chaussée", "en": "Ground-floor room" },
         "description": {
-          "fr": "Lits doubles avec douche et toilettes.",
-          "en": "Double beds with a shower and toilet."
+          "fr": "Lit double (160 cm) avec douche et WC.",
+          "en": "Double bed (160 cm) with shower and toilet."
         },
         "rates": [
           "",
@@ -105,11 +105,42 @@
         ]
       },
       {
-        "count": "2",
-        "name": { "fr": "Chambres doubles", "en": "Double rooms" },
+        "count": "",
+        "name": { "fr": "Chambre « Suite »", "en": "Room “Suite”" },
         "description": {
-          "fr": "Deux lits simples.",
-          "en": "Two single beds."
+          "fr": "Lit double (140 cm) avec WC et douche.",
+          "en": "Double bed (140 cm) with toilet and shower."
+        },
+        "rates": [
+          "",
+          "60 €",
+          "",
+          "",
+          ""
+                    
+        ]
+      },
+      {
+        "count": "",
+        "name": { "fr": "Chambre « Blanche »", "en": "Room “White”" },
+        "description": {
+          "fr": "Un lit double (140 cm).",
+          "en": "One double bed (140 cm)."
+        },
+        "rates": [
+          "",
+          "60 €",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "count": "",
+        "name": { "fr": "Chambre « Bleue »", "en": "Room “Blue”" },
+        "description": {
+          "fr": "Deux lits simples avec douche.",
+          "en": "Two single beds with shower."
         },
         "rates": [
           "40 €",
@@ -120,26 +151,11 @@
         ]
       },
       {
-        "count": "1",
-        "name": { "fr": "Chambres triples", "en": "Triple rooms" },
+        "count": "",
+        "name": { "fr": "Chambre « Rose »", "en": "Room “Rose”" },
         "description": {
-          "fr": "Un lit double et un petit lit simple enfant.",
-          "en": "One double bed and a small child's single bed."
-        },
-        "rates": [
-          "",
-          "",
-          "60 €",
-          "",
-          ""
-        ]
-      },
-      {
-        "count": "1",
-        "name": { "fr": "Chambres triples", "en": "Triple rooms" },
-        "description": {
-          "fr": "Trois lits simples et douche.",
-          "en": "Three single beds and a shower."
+          "fr": "Un lit superposé et un lit simple avec lavabo et douche.",
+          "en": "One bunk bed and one single bed with washbasin and shower."
         },
         "rates": [
           "40 €",
@@ -150,11 +166,26 @@
         ]
       },
       {
-        "count": "1",
+        "count": "",
+        "name": { "fr": "Chambre « Verte »", "en": "Room “Green”" },
+        "description": {
+          "fr": "Un lit double (140 cm) et un lit simple avec lavabo.",
+          "en": "A double bed (140 cm) and one single bed with washbasin."
+        },
+        "rates": [
+          "",
+          "60 €",
+          "80 €",
+          "",
+          ""
+        ]
+      },
+      {
+        "count": "",
         "name": { "fr": "Dortoir 5 lits", "en": "Dormitory 5 beds" },
         "description": {
-          "fr": "Deux lits superposés et trois lits simples.",
-          "en": "Two bunk beds and three single beds."
+          "fr": "Un lit superposé et trois lits simples avec douche et WC.",
+          "en": "One bunk bed and three single beds with shower and toilet."
         },
         "rates": [
           "35 €",
@@ -168,8 +199,8 @@
     "whole_house": {
       "title": { "fr": "Gîte complet", "en": "Whole house" },
       "description": {
-        "fr": "Maison entière, jusqu'à 18 personnes.",
-        "en": "Whole house, up to 18 people."
+        "fr": "Maison entière, jusqu'à 15 personnes.",
+        "en": "Whole house, up to 15 people."
       },
       "season_labels": [
         { "fr": "Basse saison", "en": "Low season" },
