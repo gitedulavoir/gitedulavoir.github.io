@@ -1,17 +1,17 @@
 {
   "meta": {
-    "title": { "fr": "Gîte du Lavoir — Bruniquel, Tarn-et-Garonne", "en": "Gîte du Lavoir — Southwestern France" },
+    "title": { "fr": "Gîte du Lavoir -- Bruniquel, Gorges de l'Aveyron, Tarn-et-Garonne", "en": "Gîte du Lavoir -- Bruniquel, Gorges de l'Aveyron, Tarn-et-Garonne, Southwestern France" },
     "description": {
-      "fr": "Gîte de groupe et chambres d'hôtes à Bruniquel, dans les gorges de l'Aveyron. 7 chambres, grand salon et cuisine commune équipée.",
-      "en": "Group accommodation and guest rooms in Bruniquel, in the Aveyron gorges. 7 bedrooms, a large shared living room and fitted kitchen."
+      "fr": "Gîte de groupe et chambres d'hôtes à Bruniquel, dans les gorges de l'Aveyron. 7 chambres, salon et cuisine commune équipée. À proximité des rivières Vère et Aveyron et des châteaux de Bruniquel.",
+      "en": "Group gîte and guest rooms in Bruniquel, in the Aveyron gorges. 7 bedrooms, lounge, and a fully equipped shared kitchen. Close to the Vère and Aveyron rivers and the châteaux of Bruniquel."
     },
     "favicon": ""
   },
 
   "nav": [
     { "href": "#reserver", "label": { "fr": "Réserver",      "en": "Book" } },
-    { "href": "#maison",   "label": { "fr": "La maison",     "en": "The house" } },
     { "href": "#chambres", "label": { "fr": "Tarifs",  "en": "Rates" } },
+    { "href": "#maison",   "label": { "fr": "La maison",     "en": "The house" } },
     { "href": "#environs", "label": { "fr": "Autour du gîte","en": "Around us" } }
   ],
 
@@ -33,12 +33,10 @@
   },
 
   "stats": [
-    { "value": "7",      "label": { "fr": "chambres",                    "en": "bedrooms" } },
-    { "value": "18",     "label": { "fr": "couchages",                   "en": "beds" } },
-    { "value": "1",      "label": { "fr": "cuisine commune équipée",     "en": "shared fitted kitchen" } },
-    { "value": { "fr": "à 15 m", "en": "15 m" },  "label": { "fr": "du lavoir",           "en": "from the lavoir" } },
-    { "value": "5 min",  "label": { "fr": "à pied du château",           "en": "walk to the castle" } },
-    { "value": "2 min",  "label": { "fr": "à pied de la rivière",           "en": "walk to the river" } }
+    { "value": "7", "label": { "fr": "chambres", "en": "bedrooms" } },
+    { "value": "18", "label": { "fr": "couchages", "en": "beds" } },
+    { "value": "1",  "label": { "fr": "cuisine commune équipée", "en": "shared fitted kitchen" } },
+    { "value": "",  "label": { "fr": "Local à vélos",  "en": "Bike Storage" } }
   ],
 
   "house": {
@@ -80,8 +78,8 @@
   "rooms": {
     "title": { "fr": "Tarifs saison 2025/26", "en": "2025/26 seasonal rates" },
     "intro": {
-      "fr": "Tarifs <b>à la nuitée</b>. Pour un séjour à la semaine, contactez-nous.",
-      "en": "<b>Nightly rates</b>. Contact us for weekly stays."
+      "fr": "Tarifs <b>à la nuitée</b> avec draps fournis. Pour un séjour à la semaine, contactez-nous.",
+      "en": "<b>Nightly rates</b> with linen included. Please contact us for weekly stays."
     },
     "capacity_labels": [
       { "fr": "1 personne", "en": "1 person" },
@@ -224,11 +222,11 @@
     "contact_links": [
       { "label": { "fr": "Écrire",    "en": "Email" }, "value": "gitedulavoir@protonmail.com", "href": "mailto:gitedulavoir@protonmail.com" },
       { "label": { "fr": "Téléphone / WhatsApp", "en": "Phone / WhatsApp" }, "value": "+33 (0)7 62 32 99 54",   "href": "tel:+33762329954" },
-      { "label": { "fr": "Adresse", "en": "Address" }, "value": "123 Rte de L’Usine a Chaux,<br> 82800 Bruniquel", "href": "https://maps.app.goo.gl/s9TXH2EaFbDu6eoD7" }
+      { "label": { "fr": "Adresse", "en": "Address" }, "value": "123 Rte de L’Usine à Chaux,<br> 82800 Bruniquel", "href": "https://maps.app.goo.gl/s9TXH2EaFbDu6eoD7" }
     ],
     "contact_info": [
-      { "label": { "fr": "Réservation",  "en": "Booking" },  "value": { "fr": "Chambres, maison entière, week-end ou semaine",
-        "en": "Rooms, the whole house, weekends or weeks"  } }
+      { "label": { "fr": "Réservation",  "en": "Booking" },  "value": { "fr": "Chambres, maison entière, nuitée, week-end ou semaine",
+        "en": "Rooms, whole house rental, nightly stays, weekends or weeks"  } }
     ],
     "cta": { "fr": "Demander des dates", "en": "Ask about dates" }
   },
