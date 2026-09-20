@@ -95,7 +95,19 @@ html[lang="en"] .lang a[data-lang="en"]{background:var(--river);color:var(--pape
 }
 
 /* ---------- hero ---------- */
-.hero{background:var(--deep);color:var(--limestone);overflow:hidden;position:relative}
+.hero{
+  background:var(--paper);
+  color:var(--ink);overflow:hidden;position:relative;
+}
+.hero::before{
+  content:"";
+  position:absolute;
+  inset:-18px;
+  background:url("../img/house_and_lavoir.jpg") center/cover;
+  filter:blur(2px);
+  opacity:.06;
+  transform:scale(1.04);
+}
 .hero-in{
   position:relative;
   z-index:1;
@@ -103,37 +115,15 @@ html[lang="en"] .lang a[data-lang="en"]{background:var(--river);color:var(--pape
   text-align:center;
 }
 .hero h1{
-  font-size:clamp(2.4rem,7.2vw,5.4rem);letter-spacing:-.035em;color:#EFEDE3;
+  font-size:clamp(2.4rem,7.2vw,5.4rem);letter-spacing:-.035em;color:var(--deep);
   text-wrap:balance;
 }
-.hero .place{margin:1.1rem auto 0;max-width:34ch;color:var(--sand);font-size:clamp(.95rem,.4vw + .85rem,1.1rem)}
-.hero .lede{margin:1.6rem auto 0;max-width:52ch;color:rgba(239,237,227,.78)}
-.scene{position:relative}
-.hero-scene{
-  position:absolute;
-  z-index:0;
-  left:50%;
-  bottom:-5%;
-  width:min(1280px,128vw);
-  translate:-50% 0;
-  opacity:.22;
-  pointer-events:none;
-}
-.scene svg{display:block;width:100%;height:auto}
-.scene .refl{
-  transform:scaleY(-1);opacity:.4;
-  -webkit-mask-image:linear-gradient(to bottom,#000,transparent 72%);
-  mask-image:linear-gradient(to bottom,#000,transparent 72%);
-  filter:blur(.6px);
-  animation:ripple 9s ease-in-out infinite;
-}
-@keyframes ripple{0%,100%{transform:scaleY(-1) skewX(0deg)}50%{transform:scaleY(-1) skewX(.5deg)}}
-.waterline{height:1px;background:linear-gradient(to right,transparent,var(--sand),transparent);opacity:.6}
-@media (prefers-reduced-motion:reduce){.scene .refl{animation:none}}
+.hero .place{margin:1.1rem auto 0;max-width:34ch;color:var(--river);font-size:clamp(.95rem,.4vw + .85rem,1.1rem)}
+.hero .lede{margin:1.6rem auto 0;max-width:52ch;color:rgba(27,38,32,.78)}
 .hero-book{
   width:min(980px,100%);
   margin:clamp(2.3rem,5vw,3.8rem) auto 0;
-  border-top:1px solid rgba(203,182,142,.35);
+  border-top:1px solid var(--rule);
   padding-top:clamp(1.8rem,4vw,2.8rem);
   text-align:left;
 }
@@ -146,16 +136,16 @@ html[lang="en"] .lang a[data-lang="en"]{background:var(--river);color:var(--pape
   margin-inline:auto;
   text-align:left;
 }
-.hero-book .head h2{color:#EFEDE3;font-size:clamp(1.65rem,3vw,2.35rem);margin-bottom:0}
-.hero-book .head p{color:rgba(239,237,227,.72);margin:0}
+.hero-book .head h2{color:var(--deep);font-size:clamp(1.65rem,3vw,2.35rem);margin-bottom:0}
+.hero-book .head p{color:var(--moss);margin:0}
 .hero-book .contact{grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:1.1rem 1.8rem;margin-top:2rem}
 .hero-book .contact dd{font-size:1.02rem}
+.hero-book .contact dt{color:var(--river)}
 @media (max-width:820px){
   .hero-book{text-align:center}
   .hero-book .head{display:block;text-align:center}
   .hero-book .head h2{margin-bottom:1rem}
   .hero-book .contact{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
-  .hero-scene{bottom:8%;opacity:.16}
 }
 
 /* ---------- bandeau chiffres ---------- */
@@ -169,17 +159,24 @@ html[lang="en"] .lang a[data-lang="en"]{background:var(--river);color:var(--pape
 section{padding:clamp(3.5rem,8vw,6rem) 0}
 .on-surface{background:var(--surface)}
 #maison{
-  background:
-    linear-gradient(rgba(245,244,239,.84),rgba(245,244,239,.84)),
-    url("../img/house_light.jpg") center/cover;
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+  background:var(--paper);
 }
-@media (prefers-color-scheme:dark){
-  #maison{
-    background:
-      linear-gradient(rgba(17,27,23,.78),rgba(17,27,23,.78)),
-      url("../img/house_light.jpg") center/cover;
-  }
+#maison::before,
+.story::before{
+  content:"";
+  position:absolute;
+  inset:-12px;
+  z-index:-1;
+  background:center/cover no-repeat;
+  filter:blur(2px);
+  opacity:.08;
+  transform:scale(1.02);
 }
+#maison::before{background-image:url("../img/house_light.jpg")}
+#maison .wrap,.story .wrap{position:relative;z-index:1}
 .head{max-width:60ch}
 .head h2{font-size:clamp(1.9rem,4.4vw,3rem);margin-bottom:1rem}
 .head p{color:var(--moss);max-width:54ch}
@@ -196,29 +193,33 @@ section{padding:clamp(3.5rem,8vw,6rem) 0}
 .facts li span:first-child{flex:none;width:9.5rem;color:var(--moss);font-size:.92rem;font-family:"Familjen Grotesk",Helvetica,Arial,sans-serif}
 
 /* ---------- chambres ---------- */
-.courses{margin-top:2.5rem;border-top:2px solid var(--ink);overflow-x:auto}
-.course{display:grid;grid-template-columns:minmax(15rem,1.5fr) repeat(5,minmax(6.5rem,1fr));gap:1rem;align-items:baseline;min-width:720px;padding:1.4rem 0;border-bottom:1px solid var(--rule)}
-.course-head{padding:.8rem 0;font-family:"Familjen Grotesk",Helvetica,Arial,sans-serif;font-size:.82rem;color:var(--moss);text-align:center}
-.course-head div:first-child{text-align:left}
-.course-name{display:grid;grid-template-columns:2.5rem 1fr;column-gap:.8rem}
-.course .qty{grid-row:1 / span 2;font-family:"Familjen Grotesk",Helvetica,Arial,sans-serif;font-weight:600;font-size:1.7rem;letter-spacing:-.03em;color:var(--river)}
-.course h3{font-size:clamp(1.25rem,2.4vw,1.6rem)}
-.course p{grid-column:2;margin:.45rem 0 0;color:var(--moss);font-size:.98rem;max-width:56ch}
-.course .rate{font-family:"Familjen Grotesk",Helvetica,Arial,sans-serif;font-weight:600;font-size:1rem;color:var(--river);text-align:center;white-space:nowrap}
+.rates-scroll{margin-top:2.5rem;overflow-x:auto;border-top:2px solid var(--ink)}
+.rates-table{width:100%;min-width:720px;border-collapse:collapse;table-layout:fixed}
+.rates-table th,.rates-table td{padding:1rem .8rem;border-bottom:1px solid var(--rule);vertical-align:middle}
+.rates-table thead th{font-family:"Familjen Grotesk",Helvetica,Arial,sans-serif;font-size:.82rem;font-weight:500;color:var(--moss);text-align:center}
+.rates-table thead th:first-child{text-align:left;width:42%}
+.rates-table tbody td{text-align:center;font-family:"Familjen Grotesk",Helvetica,Arial,sans-serif;font-weight:600;color:var(--river);white-space:nowrap}
+.room-name{display:flex;gap:.8rem;align-items:flex-start;text-align:left}
+.room-name .qty{flex:none;font-family:"Familjen Grotesk",Helvetica,Arial,sans-serif;font-size:1.7rem;font-weight:600;line-height:1;color:var(--river)}
+.room-name strong,.room-name small{display:block}
+.room-name strong{font-family:"Familjen Grotesk",Helvetica,Arial,sans-serif;font-size:clamp(1.1rem,2.2vw,1.45rem);font-weight:600;line-height:1.1}
+.room-name small{margin-top:.45rem;color:var(--moss);font-size:.95rem;font-weight:400;line-height:1.35}
+.whole-house-rates{margin-top:3rem;overflow-x:auto;border-top:2px solid var(--ink)}
+.whole-house-table{min-width:560px}
+.whole-house-table thead th:first-child{width:42%}
 
 /* ---------- histoire du lavoir ---------- */
 .story{
-  background:
-    linear-gradient(rgba(245,244,239,.82),rgba(245,244,239,.82)),
-    url("../img/lavoir_light.jpg") center/cover;
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+  background:var(--paper);
 }
 @media (prefers-color-scheme:dark){
-  .story{
-    background:
-      linear-gradient(rgba(17,27,23,.74),rgba(17,27,23,.74)),
-      url("../img/lavoir_light.jpg") center/cover;
-  }
+  #maison::before{opacity:.06}
+  .story::before{opacity:.07}
 }
+.story::before{background-image:url("../img/lavoir_light.jpg")}
 .story .prose{margin-top:2.5rem}
 
 /* ---------- autour du gîte ---------- */

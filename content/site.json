@@ -3,9 +3,9 @@
     "title": { "fr": "Gîte du Lavoir — Bruniquel, Tarn-et-Garonne", "en": "Gîte du Lavoir — Southwestern France" },
     "description": {
       "fr": "Gîte de groupe et chambres d'hôtes à Bruniquel, dans les gorges de l'Aveyron. 7 chambres, grand salon et cuisine commune équipée.",
-      "en": "Group accommodation in Bruniquel, in the Aveyron gorges. 7 bedrooms, a large shared living room and fitted kitchen."
+      "en": "Group accommodation and guest rooms in Bruniquel, in the Aveyron gorges. 7 bedrooms, a large shared living room and fitted kitchen."
     },
-    "favicon": "🪨"
+    "favicon": ""
   },
 
   "nav": [
@@ -24,17 +24,17 @@
     },
     "lede": {
       "fr": "Gîte de groupe et chambres d'hôtes : sept chambres, une cuisine commune, à deux pas des châteaux et de la rivière.",
-      "en": "Group accommodation in Bruniquel: seven bedrooms, a large shared kitchen, and the river at the bottom of the lane."
+      "en": "A group gîte and guest rooms in Bruniquel: seven bedrooms, a shared kitchen, and the river just a short walk away."
     },
     "image": {
       "src": "assets/img/lavoir_and_house.jpg",
-      "alt": { "fr": "Le gîte et le lavoir à l'entrée de Bruniquel", "en": "" }
+      "alt": { "fr": "Le gîte et le lavoir à l'entrée de Bruniquel", "en": "The gîte and washhouse at the entrance to Bruniquel" }
     }
   },
 
   "stats": [
     { "value": "7",      "label": { "fr": "chambres",                    "en": "bedrooms" } },
-    { "value": "16",     "label": { "fr": "couchages",                   "en": "beds" } },
+    { "value": "18",     "label": { "fr": "couchages",                   "en": "beds" } },
     { "value": "1",      "label": { "fr": "cuisine commune équipée",     "en": "shared fitted kitchen" } },
     { "value": { "fr": "à 15 m", "en": "15 m" },  "label": { "fr": "du lavoir",           "en": "from the lavoir" } },
     { "value": "5 min",  "label": { "fr": "à pied du château",           "en": "walk to the castle" } },
@@ -45,7 +45,7 @@
     "title": { "fr": "La maison", "en": "The house" },
     "intro": {
       "fr": "Une maison dans la partie basse du village, à quelques pas de l'ancien lavoir qui lui donne son nom.",
-      "en": "A limestone house in the lower part of the village, a few steps from the old washhouse it is named after."
+      "en": "A house in the lower part of the village, a few steps from the old washhouse it is named after."
     },
     "paragraphs": [
       {
@@ -60,8 +60,8 @@
     "facts": [
       { 
         "label": { "fr": "Capacité",   "en": "Sleeps" },
-        "value": { "fr": "Jusqu'à 16 personnes",
-        "en": "Up to 16 people" } 
+        "value": { "fr": "Jusqu'à 18 personnes",
+        "en": "Up to 18 people" } 
       },
       { 
         "label": { "fr": "Cuisine",    "en": "Kitchen" },    
@@ -72,16 +72,16 @@
         "label": { "fr": "Sanitaires", "en": "Bathrooms" },  
         "value": { "fr": "Douches et WC à chaque étage",       
         "en": "Showers and WC on every floor" } },
-      { "label": { "fr": "Pratique",   "en": "Practical" },  "value": { "fr": "Wi-Fi, local à vélos",   "en": "Wi-Fi, bike store" } },
+      { "label": { "fr": "Pratique",   "en": "Practical" },  "value": { "fr": "Wi-Fi, local à vélos",   "en": "Wi-Fi, bike storage" } },
       { "label": { "fr": "Draps",      "en": "Linen" },      "value": { "fr": "Fournis",                "en": "Provided" } }
     ]
   },
 
   "rooms": {
-    "title": { "fr": "Tarifs", "en": "Rates" },
+    "title": { "fr": "Tarifs saison 2025/26", "en": "2025/26 seasonal rates" },
     "intro": {
-      "fr": "Tarifs Saison 2025/26 <b>à la nuitée</b>.",
-      "en": "."
+      "fr": "Tarifs <b>à la nuitée</b>. Pour un séjour à la semaine, contactez-nous.",
+      "en": "<b>Nightly rates</b>. Contact us for weekly stays."
     },
     "capacity_labels": [
       { "fr": "1 personne", "en": "1 person" },
@@ -96,7 +96,7 @@
         "name": { "fr": "Chambres doubles", "en": "Double rooms" },
         "description": {
           "fr": "Lits doubles avec douche et toilettes.",
-          "en": ""
+          "en": "Double beds with a shower and toilet."
         },
         "rates": [
           "",
@@ -107,11 +107,11 @@
         ]
       },
       {
-        "count": "1",
+        "count": "2",
         "name": { "fr": "Chambres doubles", "en": "Double rooms" },
         "description": {
           "fr": "Deux lits simples.",
-          "en": ""
+          "en": "Two single beds."
         },
         "rates": [
           "40 €",
@@ -126,7 +126,7 @@
         "name": { "fr": "Chambres triples", "en": "Triple rooms" },
         "description": {
           "fr": "Un lit double et un petit lit simple enfant.",
-          "en": ""
+          "en": "One double bed and a small child's single bed."
         },
         "rates": [
           "",
@@ -141,7 +141,7 @@
         "name": { "fr": "Chambres triples", "en": "Triple rooms" },
         "description": {
           "fr": "Trois lits simples et douche.",
-          "en": ""
+          "en": "Three single beds and a shower."
         },
         "rates": [
           "40 €",
@@ -170,12 +170,12 @@
     "whole_house": {
       "title": { "fr": "Gîte complet", "en": "Whole house" },
       "description": {
-        "fr": "Maison entière, jusqu'à 16 personnes.",
-        "en": "Whole house, up to 16 people."
+        "fr": "Maison entière, jusqu'à 18 personnes.",
+        "en": "Whole house, up to 18 people."
       },
       "season_labels": [
         { "fr": "Basse saison", "en": "Low season" },
-        { "fr": "Haute saison", "en": "High season" }
+        { "fr": "Haute saison (juin, juillet, août)", "en": "High season (June, July, August)" }
       ],
       "rates": [
         "200 €",
@@ -228,7 +228,7 @@
     ],
     "contact_info": [
       { "label": { "fr": "Réservation",  "en": "Booking" },  "value": { "fr": "Chambres, maison entière, week-end ou semaine",
-        "en": "Rooms, whole house, weekend or week"  } }
+        "en": "Rooms, the whole house, weekends or weeks"  } }
     ],
     "cta": { "fr": "Demander des dates", "en": "Ask about dates" }
   },
